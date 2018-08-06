@@ -1,0 +1,35 @@
+{
+    "name": "egg-proxy-middleware",
+    "version": "1.0.0",
+    "description": "koa proxy middleware for eggjs framework",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/longmore/egg-proxy-middleware/issues"
+    },
+    "main": "index.js",
+    "scripts": {
+        "pub": "npm version patch && npm publish && git push --follow-tags"
+    },
+    "author": "longmore <454599069@qq.com>",
+    "keywords": [
+        "egg",
+        "eggjs",
+        "koa2",
+        "plugin",
+        "proxy",
+        "egg-proxy",
+        "koa2-proxy",
+        "egg-proxy-middleware"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/longmore/egg-proxy-middleware.git"
+    },
+    "author": "zhangrongmou",
+    "dependencies": {
+        "co-body": "^2.0.0",
+        "formidable": "^1.0.17",
+        "lodash": "^4.17.10",
+        "request": "^2.56.0"
+    }
+}

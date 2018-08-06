@@ -1,0 +1,9 @@
+test
+.travis.yml
+.jshintrc
+.editorconfig
+.DS_Store
+coverage
+build
+.idea
+npm-debug.log
